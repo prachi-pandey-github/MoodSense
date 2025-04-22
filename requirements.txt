@@ -1,0 +1,8 @@
+streamlit
+sentence_transformers
+faiss
+numpy
+google.generativeai
+random
+plotly.express
+datetime 
