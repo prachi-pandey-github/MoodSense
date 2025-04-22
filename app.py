@@ -8,7 +8,7 @@ import plotly.express as px
 from datetime import datetime
 
 # --- Gemini setup ---
-genai.configure(api_key="API_KEY")  
+genai.configure(api_key=st.secrets["API_KEY"]) 
 model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp-01-21")
 
 # --- Calming UI ---
