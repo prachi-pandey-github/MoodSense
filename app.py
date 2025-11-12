@@ -12,7 +12,7 @@ genai.configure(api_key=st.secrets["API_KEY"])
 model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp-01-21")
 
 # --- Calming UI ---
-st.set_page_config(page_title="MoodSense 🌸", layout="centered")
+st.set_page_config(page_title="AI-Driven stress detection", layout="centered")
 st.markdown("""
     <style>
         body { background-color: #f0f7f4; }
@@ -195,3 +195,4 @@ st.markdown("""
 - **Practice gratitude** 🌻: Note 3 good things daily.
 - [MentalHealth.gov](https://www.mentalhealth.gov) for professional resources.
 """)
+
