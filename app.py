@@ -28,7 +28,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🌸 MoodSense")
+st.title("AI-Driven stress detection")
 
 # --- Session state init ---
 if "history" not in st.session_state:
@@ -195,4 +195,5 @@ st.markdown("""
 - **Practice gratitude** 🌻: Note 3 good things daily.
 - [MentalHealth.gov](https://www.mentalhealth.gov) for professional resources.
 """)
+
 
